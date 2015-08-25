@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.ah" name="AH Add-on repository" version="1.1.0" provider-name="lambda">
-	<extension point="xbmc.addon.repository" name="lambda Add-on repository">
-		<dir>
-			<info compressed="false">http://raw.github.com/addonhacker/ah-repo/master/addons.xml</info>
-			<checksum>http://raw.github.com/addonhacker/ah-repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">http://raw.github.com/addonhacker/ah-repo/master/</datadir>
-		</dir>
-		<info compressed="false">http://raw.github.com/addonhacker/ah-repo/master/addons.xml</info>
-		<checksum>http://raw.github.com/addonhacker/ah-repo/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/addonhacker/ah-repo/master/</datadir>
+<addon id="repository.ah" name="AH Add-on repository" version="1.0" provider-name="ah">
+	<extension point="xbmc.addon.repository" name="AH Add-on repository">
+		<info compressed="false">https://raw.github.com/addonhacker/ah-repo/master/addons.xml</info>
+		<checksum>https://raw.github.com/addonhacker/ah-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.github.com/addonhacker/ah-repo/master/repo</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Install Add-ons from AH</summary>
-		<description lang="en">Download and install add-ons from AH repository.</description>
+		<summary>Install Add-ons from AH</summary>
+		<description>Download and install add-ons from AH repository.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
-
